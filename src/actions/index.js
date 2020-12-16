@@ -1,0 +1,13 @@
+// login-actions
+
+export const APP_LOGIN_REQUEST = "APP_LOGIN_REQUEST";
+export const APP_LOGIN_RESPONSE = "APP_LOGIN_RESPONSE";
+export const APP_LOGIN_FAILURE = "APP_LOGIN_FAILURE";
+
+// logout-action
+export const APP_LOGOUT = "APP_LOGOUT";
+
+// user-dashboard actions
+export const APP_GET_LOCATIONS_REQUEST = "APP_GET_LOCATIONS_REQUEST";
+export const APP_GET_LOCATIONS_RESPONSE = "APP_GET_LOCATIONS_RESPONSE";
+export const APP_GET_LOCATIONS_FAILURE = "APP_GET_LOCATIONS_FAILURE";
