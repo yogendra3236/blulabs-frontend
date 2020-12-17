@@ -24,6 +24,7 @@ const LocationList = ({ pumps = [], history }) => {
 
   return (
     <Wrapper>
+      <div style={{ marginBottom: "20px", fontSize: "20px" }}>Your Nearest Stations</div>
       <div className="list-group">{results}</div>
     </Wrapper>
   );

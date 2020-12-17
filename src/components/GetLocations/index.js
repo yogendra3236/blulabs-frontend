@@ -15,8 +15,6 @@ const GetLocations = ({ request, loading, pumps, history }) => {
     });
   }, [request]);
 
-  console.log(loading, pumps);
-
   return (
     <div>
       <Navbar name="Dashboard" />
