@@ -10,7 +10,7 @@ const createRequestbody = ({ method, body }) => {
     "Access-Control-Allow-Headers": "X-Requested-With",
     "Content-Type": "application/json",
     "x-access-token": localStorage.getItem("token"),
-    "access-key": localStorage.getItem("key"),
+    "access-key": localStorage.getItem("accessKey"),
   };
 
   let bodyData;
@@ -32,7 +32,7 @@ export const apiHeaders = () => ({
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "X-Requested-With",
   "x-access-token": localStorage.getItem("token"),
-  "access-key": localStorage.getItem("key"),
+  "access-key": localStorage.getItem("accessKey"),
 });
 
 export default createRequestbody;
